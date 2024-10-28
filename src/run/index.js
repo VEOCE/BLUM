@@ -42,7 +42,7 @@ const run = async (user, index) => {
   let countRetryLogin = 0;
   await delayHelper.delay((user.index - 1) * DELAY_ACC);
   while (true) {
-    // Retrieve data from ZuyDD's server
+    // Retrieve data from FreeDropLink server
     if (database?.ref) {
       user.database = database;
     }
@@ -140,7 +140,7 @@ const run = async (user, index) => {
 
 console.log(
   colors.yellow.bold(
-    `=============  Tool developed and shared for free by ZuyDD  =============`
+    `=============  Tool developed and shared for free by FreeDropLink  =============`
   )
 );
 console.log(
