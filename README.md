@@ -1,3 +1,3 @@
-API KEY : 
+API KEY :
 
 https://zuy-web.vercel.app/blum
